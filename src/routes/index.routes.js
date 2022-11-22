@@ -6,7 +6,7 @@ const medicosRoutes = require("./medico.routes")
 const tratamientosRoutes = require("./tratamientos.routes")
 const rutas_init = () =>{
 
-  const router = router()
+  const router = Router()
 
   router.use("/usuarios", pacientesRoutes)
   router.use("/medicos", medicosRoutes)
